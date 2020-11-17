@@ -4,14 +4,12 @@
   "version": "1.0.0",
   "author": "Tendongze Godson",
   "license": "MIT",
-  "homepage": "http://tGodson.github.io/my-portfolio",
+  "homepage": "http://github.com/tGodson/my-portfolio#readme",
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "prettier": "prettier --write 'src/**/*.js'",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "prettier": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
     "anchorate": "1.2.3",

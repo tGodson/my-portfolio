@@ -32,7 +32,6 @@ Necessary tools to be installed:
 ## Run the application
 ### Clone the repository
 `git clone https://github.com/tGodson/my-portfolio.git`
-
 ### and then just run it with 
 `npm start`
 
@@ -42,14 +41,13 @@ Necessary tools to be installed:
 
 follow to install the Heroku cli: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
-### Install App on Github Pages
+### Install App on Heroku
 
 In Project directory:\
-Run: `npm install gh-pages --save-dev`\
-Add the following to package.json: `"homepage": "http://tGodson.github.io/my-portfolio"`,\
-Add the following under script in package.json file: `"predeploy": "npm run build"`,
-`"deploy": "gh-pages -d build"`\
-Run:`npm run deploy`\
+Run: `heroku create`\
+Verify with: `git remote -v`,\
+You can then doploy app to heroku with: `git push heroku master`\
+Provided you are in the master branch else run:`git push heroku branch-name:master`\
 
 
 ## Authors
