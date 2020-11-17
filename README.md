@@ -31,31 +31,28 @@ Necessary tools to be installed:
 
 ## Run the application
 ### Clone the repository
-`git clone git@github.com:userman95/bookstore.git`
+`git clone https://github.com/tGodson/my-portfolio.git`
+
 ### and then just run it with 
 `npm start`
 
 ## Deployment
 
-### Install Heroku Cli
+### Install Github Pages
 
-follow to install the Heroku cli: https://devcenter.heroku.com/articles/heroku-cli
+follow to install the Heroku cli: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
-### Install App on Heroku
+### Install App on Github Pages
 
 In Project directory:\
-Run: `heroku create`\
-Verify with: `git remote -v`,\
-You can then doploy app to heroku with: `git push heroku master`\
-Provided you are in the master branch else run:`git push heroku branch-name:master`\
+Run: `npm install gh-pages --save-dev`\
+Add the following to package.json: `"homepage": "http://tGodson.github.io/my-portfolio"`,\
+Add the following under script in package.json file: `"predeploy": "npm run build"`,
+`"deploy": "gh-pages -d build"`\
+Run:`npm run deploy`\
 
 
 ## Authors
 
 * **[Tendongze Godson](https://github.com/tGodson)**
 
-## Screenshot
-
-![screenshot1](https://github.com/tafodinho/my-portfolio/blob/dev/public/Screenshot%20from%202019-11-10%2016-45-27.png)
-
-![screenshot2](https://github.com/tafodinho/my-portfolio/blob/dev/public/Screenshot%20from%202019-11-10%2016-45-44.png)
