@@ -17,7 +17,7 @@ export default [
     image: platformgame,
     links: {
       github: 'https://github.com/tGodson/platform-game',
-      preview: 'https://platforomgame.tendongzegodson.me/',
+      preview: 'http://tGodson.github.io/platform-game',
     },
   },
   {
