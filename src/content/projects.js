@@ -23,7 +23,7 @@ export default [
   {
     title: 'Group Transactions',
     description:
-      'This Ruby on Rails project which is based on an app for grouping payments by goal with your family/friends.',
+      'This Ruby-on-Rails project is an app for grouping payments by goal with your family/friends.',
     skills: ['HTML5', 'CSS3', 'Ruby on Rails', 'Bootstrap', 'postgreSQL', 'Capybara', 'Rspec'],
     image: Transactions,
     links: {
@@ -57,7 +57,7 @@ export default [
     image: Restaurant,
     links: {
       github: 'https://github.com/tGodson/Restaurant-page',
-      preview: 'http://tGodson.github.io/Weather_app',
+      preview: 'http://tGodson.github.io/Restaurant-page',
     },
   },
   {
@@ -78,7 +78,7 @@ export default [
   {
     title: 'Social Media App',
     description:
-      'This project is about building a social media platform when logged In users can write a post, follow and unfollow other singed Up users. Guest users will only be able to see post.',
+      'This project is about building a social media platform where logged-In users can write a post, follow and unfollow other signed-Up users. Guest users will only be able to see post.',
     skills: ['HTML5', 'CSS3', 'Ruby on Rails', 'Bootstrap', 'postgreSQL', 'Capybara', 'Rspec'],
     image: Socialmedia,
     links: {
@@ -89,7 +89,7 @@ export default [
   {
     title: "Private Events",
     description:
-      'This project is about building an Event platform where only Users who are signed in can create an event and invite others while those who are not signed in can only view events.',
+      'This project is about building an Event platform where only Users who are signed-In can create an event and invite others while those who are not signed-In can only view events.',
     skills: ['HTML5', 'CSS3', 'Ruby on Rails', 'Bootstrap', 'postgreSQL', 'Capybara', 'Rspec'],
     image: privateevents,
     links: {
