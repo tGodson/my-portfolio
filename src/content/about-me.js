@@ -25,6 +25,6 @@ export default [
   {
     input: 'Godson.skills',
     return:
-      '["JavaScript", "Ruby", "React", "Redux", "Rails", "HTML", "Git", "CSS", "Linux", "PHP", "SQL", "WordPress", "AWS", "NodeJs", "PostgreSQL", "Github", "Pair Programming", "Communication Skills", "Mentorship", "Remote Work", "Reporting", "Constructive Feedback", "follow ups", "Recruiter", "Gitflow"]'
+      '["JavaScript", "Ruby", "React", "Redux", "Rails", "HTML", "Git", "CSS", "Linux", "PHP", "SQL", "WordPress", "AWS", "NodeJs","Capybara", "Webpack", "PostgreSQL", "Github", "Pair Programming", "Communication Skills", "Mentorship", "Remote Work", "Reporting", "Constructive Feedback", "follow ups", "Recruiter", "Gitflow"]'
   },
 ];
