@@ -1,6 +1,7 @@
 import platformgame from 'images/platformgame.png';
 import Weather from 'images/weatherapp.png';
-import Restaurant from 'images/restaurant-page.png';
+import Bookstore from 'images/bookstore.png';
+import Dog from 'images/dog-shop.png';
 import Transactions from 'images/rails-capstone.png';
 import Newsweek from 'images/newsweek.png';
 import Socialmedia from 'images/socialmedia.png';
@@ -18,6 +19,17 @@ export default [
     links: {
       github: 'https://github.com/tGodson/platform-game',
       preview: 'http://tGodson.github.io/platform-game',
+    },
+  },
+  {
+    title: 'Dog Shop',
+    description:
+      'A web app of dog and their skill where items can be filtered by breed or searched by breed name. Built with React.js and Redux.',
+    skills: ['HTML5', 'CSS3', 'React.js', 'Redux', 'Jest', 'Eslint', 'Github Pages', 'Bootstrap'],
+    image: Dog,
+    links: {
+      github: 'https://github.com/tGodson/Dog-shop',
+      preview: 'https://tGodson.github.io/Dog-shop/',
     },
   },
   {
@@ -50,29 +62,14 @@ export default [
     },
   },
   {
-    title: 'Restaurant Page',
+    title: 'Bookstore CMS',
     description:
-      'A simple restaurant webpage which has 3 navigations with unique content. All the content of this app is rendered using javascript only.',
-    skills: ['HTML5', 'CSS3', 'Webpack', 'JavaScript(ES6)', 'Bootstrap'],
-    image: Restaurant,
+      'A fast, dynamic and responsive front-end application built with React and Redux that helps to organize and manage a bookstore.',
+    skills: ['HTML5', 'CSS3', 'React.js', 'Redux', 'Jest', 'Eslint', 'Heroku', 'Bootstrap'],
+    image: Bookstore,
     links: {
-      github: 'https://github.com/tGodson/Restaurant-page',
-      preview: 'http://tGodson.github.io/Restaurant-page',
-    },
-  },
-  {
-    title: 'NewsWeek Magazine',
-    description:
-      'This is a Clone of the NewsWeek Magazine UI/UX. The structure and layout is built using Bootstrap and taking into consideration 4 screen sizes(mobile, tablet, laptop,large screen).',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Bootstrap'
-    ],
-    image: Newsweek,
-    links: {
-      github: 'https://github.com/tGodson/Newsweek-Clone',
-      preview: 'https://rawcdn.githack.com/tGodson/Newsweek-Clone/572ac6737cd9fe4fa9e80b492ba92d54b09507a3/index.html',
+      github: 'https://github.com/tGodson/react-redux-app',
+      preview: 'https://arcane-dawn-43039.herokuapp.com/',
     },
   },
   {
