@@ -14,7 +14,7 @@ export default [
     title: 'Car Rental',
     description:
       'A web app for renting cars where user can mark car as favourite and also click on a specific car to view details. Built with React.js on the frontend and Ruby on Rails on the backend',
-    skills: ['HTML5', 'CSS3', 'Sass', 'ES6', 'React.js', 'Ruby on Rails', 'Eslint', 'postgreSQL', 'Rspec', 'Jest', 'Heroku'],
+    skills: ['HTML5', 'CSS3', 'Sass', 'ES6', 'React.js', 'Redux', 'Ruby on Rails', 'axios', 'Eslint', 'postgreSQL', 'Rspec', 'Jest', 'Heroku'],
     image: Car,
     links: {
       github: 'https://github.com/tGodson/car-rental-react',
