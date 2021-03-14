@@ -3,13 +3,24 @@ import Weather from 'images/weatherapp.png';
 import Bookstore from 'images/bookstore.png';
 import Dog from 'images/dog-shop.png';
 import Transactions from 'images/rails-capstone.png';
-import Newsweek from 'images/newsweek.png';
+import Car from 'images/car_rental.png';
 import Socialmedia from 'images/socialmedia.png';
 import privateevents from 'images/privateevents.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
+  {
+    title: 'Car Rental',
+    description:
+      'A web app for renting cars where user can mark car as favourite and also click on a specific car to view details. Built with React.js on the frontend and Ruby on Rails on the backend',
+    skills: ['HTML5', 'CSS3', 'Sass', 'ES6', 'React.js', 'Ruby on Rails', 'Eslint', 'postgreSQL', 'Rspec', 'Jest', 'Heroku'],
+    image: Car,
+    links: {
+      github: 'https://github.com/tGodson/car-rental-react',
+      preview: 'https://car-rentals-react.herokuapp.com/',
+    },
+  },
   {
     title: 'Phaser Platform Game',
     description:
